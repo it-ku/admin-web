@@ -143,6 +143,15 @@ export default defineConfig({
   mfsu: {
     strategy: 'normal',
   },
+  mock: {
+    include: [
+      'src/pages/**/_mock.ts',
+      'src/pages/**/**/_mock.ts'
+    ],
+  },
   esbuildMinifyIIFE: true,
   requestRecord: {},
+  alias: {
+    config: '/config/',
+  },
 });
