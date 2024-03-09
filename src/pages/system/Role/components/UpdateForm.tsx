@@ -2,7 +2,7 @@ import { ModalForm, ProFormText } from '@ant-design/pro-components';
 
 import '@umijs/max';
 import React from 'react';
-import {Item} from "@/pages/System/Role/data";
+import {Item} from "@/pages/system/Role/data";
 
 export type FormValueType = Partial<Item>;
 export type UpdateFormProps = {
